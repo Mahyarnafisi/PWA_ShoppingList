@@ -6,13 +6,13 @@ import Styles from "./Navbar.module.css";
 function Navbar() {
   return (
     <div className={Styles.navbar}>
-      <NavLink to="#" className={Styles.shopList}>
+      <NavLink to="/home/list" className={Styles.shopList}>
         <ShoppingCartOutlinedIcon />
       </NavLink>
-      <NavLink to="#" className={Styles.add}>
+      <NavLink to="/home/add" className={Styles.add}>
         <AddOutlinedIcon /> <h2>Add New Item</h2>
       </NavLink>
-      <NavLink to="#" className={Styles.info}>
+      <NavLink to="/home/info" className={Styles.info}>
         <InfoOutlinedIcon />
       </NavLink>
     </div>

@@ -1,12 +1,12 @@
 .main {
   width: 100%;
-  height: calc(100% - 12rem);
+  height: calc(100% - 14rem);
   background-color: var(--color-white);
   z-index: 200;
   position: absolute;
-  top: 12rem;
+  top: 6rem;
   left: 0;
   border-radius: var(--border-r-xl) var(--border-r-xl) 0 0;
   padding: var(--spacing-md);
-  box-shadow: 0 -1rem 4rem #00000015;
+  box-shadow: 0 -1rem 5rem #00000025;
 }
