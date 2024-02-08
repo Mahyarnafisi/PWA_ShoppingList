@@ -2,30 +2,53 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0.5rem;
-  padding: var(--spacing-sm) var(--spacing-md);
+  gap: 1rem;
+  padding: var(--spacing-md) var(--spacing-md);
   background-color: var(--color-gray-100);
   border-radius: var(--border-r-md);
+  position: relative;
+  overflow: hidden;
 }
+.listItem:hover {
+  background-color: var(--color-green-100);
+}
+
 .colorTag {
-  width: 2rem;
-  height: 2rem;
+  width: 2.4rem;
+  height: 2.4rem;
   border-radius: 50%;
   background-color: var(--color-green-900);
 }
 
 .title {
   flex: 1 0 70%;
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-md);
   color: var(--color-gray-900);
-  font-weight: 500;
+  font-weight: 600;
+  margin-left: 1rem;
 }
 .shop {
-  flex: 1 0 10%;
-  font-size: var(--font-size-xs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  font-size: var(--font-size-sm);
   color: var(--color-gray-800);
 }
 
 .btn__rmv {
-  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-red-900);
+  border: none;
+  outline: none;
+  color: white;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: var(--border-r-xs);
+}
+
+.btn__rmv svg {
+  font-size: 1.8rem;
 }
